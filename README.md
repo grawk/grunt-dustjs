@@ -1,17 +1,20 @@
-grunt-dustjs
+grunt-dustjs-configurable
 ----------
 
 Grunt task to compile Dust.js templates.
 
+A fork of [grunt-dustjs](https://github.com/STAH/grunt-dustjs), adding dustjs configuration ability
+
+
 Getting Started
 ===============
 
-Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-dustjs`.
+Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-dustjs-configurable`.
 
 Then add this line to your project's `grunt.js` gruntfile:
 
 ```javascript
-grunt.loadNpmTasks("grunt-dustjs");
+grunt.loadNpmTasks("grunt-dustjs-configurable");
 ```
 
 [getting_started]: https://github.com/gruntjs/grunt/wiki/Getting-started
@@ -42,7 +45,7 @@ Used to reverse quotes usage by dustjs: double quotes replaced by single quotes 
 ```javascript
 module.exports = function (grunt) {
   //...
-  grunt.loadNpmTasks("grunt-dustjs");
+  grunt.loadNpmTasks("grunt-dustjs-configurable");
   //...
 
   var config = {
@@ -68,7 +71,7 @@ var path = require("path");
 
 module.exports = function (grunt) {
   //...
-  grunt.loadNpmTasks("grunt-dustjs");
+  grunt.loadNpmTasks("grunt-dustjs-configurable");
   //...
 
   var config = {
@@ -104,7 +107,7 @@ module.exports = function (grunt) {
 ```javascript
 module.exports = function (grunt) {
   //...
-  grunt.loadNpmTasks("grunt-dustjs");
+  grunt.loadNpmTasks("grunt-dustjs-configurable");
   //...
 
   var config = {
