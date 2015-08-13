@@ -9,7 +9,7 @@
   },
   "contributors": [
     "Aria Stewart <aredridel@dinhe.net>"
-  ]
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/paypal/grunt-dustjs-configurable.git"
